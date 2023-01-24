@@ -1,0 +1,39 @@
+.Header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  left: 0;
+  right: 0;
+}
+.body-header {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 12px;
+  width: 1200px;
+  background-color: var(--light-color);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border-radius: 60px;
+}
+.logo {
+  content: url("https://cdn.dribbble.com/userupload/3000718/file/original-3aad87878399c27752ecdb2deb03dcb0.jpg?resize=400x0");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px !important;
+  height: 44px;
+  margin-right: 16px;
+  background-color: var(--primary-color);
+  border: var(--border);
+  border-radius: 50%;
+}
+
+#btnPricing {
+  height: 44px;
+  padding: 0 18px;
+  margin-left: auto;
+  border: 0;
+  border-radius: 46px;
+}
